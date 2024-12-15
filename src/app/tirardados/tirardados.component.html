@@ -1,0 +1,12 @@
+<div class="container text-center">
+    <p>Soy tirar dados y uso el componente dados</p>
+    <div>
+        <app-dados valor = "{{ n1 }}"></app-dados>&nbsp;
+        <app-dados valor = "{{ n2 }}"></app-dados>&nbsp;
+        <app-dados valor = "{{ n3 }}"></app-dados>&nbsp;
+    </div>
+    <div>
+        <p>Resultado: {{resultado}}</p>
+        <button (click)="tirar()" class="btn btn-success">Tirar Dados</button>
+    </div>
+</div>
